@@ -3,7 +3,7 @@ let userAge = 0 // Defines userAge as variable.
 
 document.getElementById('trigger').addEventListener('click', school) // Starts addEventListener for button that triggers school function.
 
-function school() {
+function school () {
   userDay = prompt('Please enter the day', 'Tuesday') // Creates a prompt for user to enter the day.
   userAge = prompt('Now enter your age', '13') // Creates a prompt for user to enter their age.
 
